@@ -1,0 +1,26 @@
+# 构建产物
+/cpp/build/
+/cpp/dist/
+*.o
+*.obj
+
+# 程序产物（cpp/build.ps1 编译后复制到根目录）
+/*.exe
+/*.ini
+
+# 样例输入 / 输出数据（体积很大）
+/yuv_files/
+/yuv_files_out/
+
+# 本地 MinGW 工具链
+/_tools/w64devkit/
+
+# 调试用的临时截图
+/_tools/*.png
+/_tools/*.jpg
+
+# 系统杂项
+Thumbs.db
+desktop.ini
+.vscode/
+__pycache__/
